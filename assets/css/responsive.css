@@ -1,0 +1,966 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	body {
+		font-size: 14px;
+	}
+	.header {
+		padding: 14px 0 13px;
+	}
+	.menu .supportbtn {
+		font-size: 11px;
+		padding: 7px 25px 9px;
+	}
+	.banner {
+		padding: 80px 0 0;
+		margin-bottom: 30px;
+	}
+	h1 {
+		font-size: 28px;
+	}
+	.bannercontent span {
+		font-size: 20px;
+	}
+	.bannercontent p {
+		font-size: 17px;
+	}
+	.redbutton {
+		font-size: 16px;
+		padding: 11px 30px 14px;
+	}
+	.frameworklogos {
+		margin-bottom: 20px;
+	}
+	.logos li img {
+		width: 80%;
+	}
+	.sectionwrapper {
+		padding: 30px 0;
+	}
+	.subsection {
+		margin-bottom: 20px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	.subsection .center h2::before {
+		font-size: 13px;
+	}
+	.center {
+		margin-bottom: 20px;
+		width: 75%;
+	}
+	.rating {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.rating .trustpilot {
+		margin-bottom: 18px;
+	}
+	.trustpilot .trustrating {
+		padding: 14px 0;
+	}
+	h3 {
+		font-size: 21px;
+	}
+	.trustpilot .trust span {
+		font-size: 28px;
+	}
+	.trustpilot .trusticon {
+		right: -13%;
+	}
+	.processboxwrapper {
+		padding-bottom: 140px;
+	}
+	.processboxwrapper .processbox {
+		padding: 24px 12px 24px 14px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	.processlist {
+		margin-bottom: 15px;
+	}
+	.processbox .solutionicon {
+		width: 25%;
+	}
+	.servicelist .service {
+		padding: 15px 15px 18px 90px;
+	}
+	.servicelist .service h4 {
+		font-size: 14px;
+	}
+	.servicelist .service a {
+		font-size: 11px;
+		padding-bottom: 4px;
+	}
+	.service .servicelogo {
+		width: 15.5%;
+	}
+	.moreboxleft .webdev p {
+		font-size: 12px;
+	}
+	.contactsection .helpicon {
+		width: 25%;
+		top: 20px;
+	}
+	.helpwrapper h3 {
+		font-size: 16px;
+	}
+	.helpboxwrapper .helpbox p {
+		font-size: 12px;
+	}
+	.estimateboxwrapper .formwrapper {
+		width: 82%;
+		margin: 0 auto 30px auto;
+	}
+	.formwrapper .formicon {
+		margin: 0 0 -10px -15%;
+	}
+	.estimatewrapper h2 {
+		margin-bottom: 24px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	.formwrapper h5 {
+		margin-bottom: 15px;
+	}
+	.formdetail {
+		margin-bottom: 20px;
+	}
+	.formdetail .inputwrapper {
+		margin-bottom: 13px;
+	}
+	.formwrapper .inputwrapper label {
+		font-size: 13px;
+	}
+	.inputwrapper .input {
+		height: 38px;
+	}
+	.inputwrapper .txtinput {
+		height: 76px;
+	}
+	.inputwrapper .input {
+		font-size: 13px;
+	}
+	.infowrapper .partners {
+		margin-bottom: 20px;
+	}
+	.replyboxwrapper .replybox {
+		padding: 85px 10px 10px;
+	}
+	.replyboxwrapper .replybox span {
+		font-size: 10px;
+	}
+	.footer .address {
+		font-size: 9px;
+	}
+	.footer .privacy {
+		font-size: 12px;
+	}
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	body {
+		font-size: 15px;
+	}
+	.header {
+		padding: 18px 0 17px;
+	}
+	.menu .mainlogo {
+		padding: 3px 0;
+	}
+	.menu .supportbtn {
+		font-size: 12px;
+		padding: 8px 30px 10px;
+	}
+	.banner {
+		padding: 90px 0 0;
+		margin-bottom: 40px;
+	}
+	.banner .rocketimgwrapper {
+		margin-bottom: 30px;
+	}
+	h1 {
+		font-size: 35px;
+	}
+	.bannercontent span {
+		font-size: 23px;
+	}
+	.bannercontent p {
+		font-size: 19px;
+	}
+	.specialist {
+		margin-bottom: 22px;
+	}
+	.redbutton {
+		font-size: 18px;
+	}
+	.frameworklogos {
+		margin-bottom: 35px;
+	}
+	.sectionwrapper {
+		padding: 50px 0;
+	}
+	.subsection {
+		margin-bottom: 30px;
+		padding: 50px 0 10px;
+	}
+	h2 {
+		font-size: 28px;
+	}
+	.subsection .center h2::before {
+		font-size: 15px;
+	}
+	.center {
+		margin-bottom: 30px;
+		width: 60% !important;
+	}
+	.trustpilot .trustrating {
+		padding: 28px 0 40px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	.trustpilot .trust span {
+		font-size: 35px;
+	}
+	.processboxwrapper {
+		padding-bottom: 160px;
+	}
+	.processboxwrapper .processbox {
+		width: 48.76%;
+		float: left;
+		margin-right: 2.4%;
+		padding: 22px 7px 22px 2px;
+	}
+	.processbox:last-child {
+		margin-right: 0;
+	}
+	.processlist {
+		min-height: 308px;
+	}
+	.processbox .solutionicon {
+		width: 65%;
+		left: 0;
+		transform: translate(-100%,-10%);
+	}
+	.servicewrapper .center {
+		margin-bottom: 90px;
+	}
+	.servicewrapper .servicelist {
+		padding: 13px 12px 25px;
+	}
+	.servicelist .service {
+		padding: 10px 14px 10px 14px;
+		float: left;
+		border-bottom: 0;
+		border-right: 1px solid #cfe3e0;
+	}
+	.firstservice {
+		width: 33.2%;
+	}
+	.secondservice {
+		width: 33.6%;
+	}
+	.thirdservice {
+		width: 33.2%;
+	}
+	.service .servicelogo {
+		width: 28%;
+		top: 0;
+		left: 50%;
+		transform: translate(-80%, -91%);
+	}
+	.secondservice .servicelogo {
+		width: 32%;
+		transform: translate(-44%, -86%);
+	}
+	.thirdservice .servicelogo {
+		width: 33%;
+		transform: translate(-57%, -91%);
+	}
+	.moreboxleft .webdev p {
+		font-size: 13px;
+	}
+	.helpwrapper h3 {
+		font-size: 18px;
+	}
+	.helpwrapper .helpboxwrapper {
+		margin-bottom: 28px;
+	}
+	.helpboxwrapper .helpbox {
+		width: 29%;
+		float: left;
+		margin: 0 6.5% 0 0;
+		position: relative;
+		min-height: 320px;
+	}
+	.helpboxwrapper .helpbox:last-child {
+		margin: 0;
+	}
+	.helpboxwrapper .helpbox p {
+		font-size: 13px;
+		text-align: left;
+	}
+	.estimatewrapper h2 {
+		width: 60%;
+		margin: 0 auto 24px auto;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	.formwrapper .formicon {
+		width: 22%;
+	}
+	.formdetail .inputwrapper {
+		margin-bottom: 16px;
+	}
+	.inputwrapper .input {
+		font-size: 14.5px;
+	}
+	.formwrapper .inputwrapper label {
+		font-size: 14px;
+	}
+	.inputwrapper .error {
+		font-size: 11px;
+	}
+	.infowrapper .partners {
+		margin-bottom: 35px;
+	}
+	.replybox strong {
+		display: block;
+	}
+	.footer {
+		text-align: left;
+	}
+	.footer .address {
+		width: 35%;
+		font-size: 10px;
+		float: left;
+		border-right: 1px solid #e4e4ef;
+		border-bottom: 0;
+		margin-right: 2.2%;
+	}
+	.footer .privacy {
+		width: 45%;
+		float: left;
+		font-size: 13px;
+	}
+	.footer .sociallinks {
+		float: right;
+		padding: 23px 0 0;
+	}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	body {
+		font-size: 17px;
+	}
+	.container {
+		padding: 0 30px;
+	}
+	.header {
+		padding: 22px 0 19px;
+	}
+	.menu .supportbtn {
+		font-size: 13px;
+		padding: 9px 38.5px 11px;
+	}
+	.banner {
+		padding: 120px 0 0px;
+		margin-bottom: 55px;
+	}
+	.rocketimgwrapper {
+		margin-bottom: 0px;
+		width: 52%;
+		float: right;
+		text-align: right;
+		margin: 38px 52px 0 0;
+	}
+	.banner .container {
+		position: relative;
+	}
+	.bannercontent {
+		position: absolute;
+		width: 50%;
+		left: 30px;
+		top: 0;
+		text-align: left;
+	}
+	h1 {
+		font-size: 43px;
+	}
+	.bannercontent h1 {
+		margin-bottom: 22px;
+	}
+	.bannercontent span {
+		font-size: 25px;
+		margin-bottom: 28px;
+	}
+	.bannercontent p {
+		font-size: 22px;
+		margin-bottom: 17px;
+	}
+	.specialist {
+		margin-bottom: 31px;
+	}
+	.redbutton {
+		font-size: 22px;
+		padding: 12px 41px 15px;
+	}
+	.frameworklogos {
+		margin-bottom: 45px;
+	}
+	.logos li img {
+		width: 100%;
+	}
+	.sectionwrapper {
+		padding: 55px 0;
+	}
+	.subsection {
+		padding: 55px 0 10px;
+	}
+	h2 {
+		font-size: 33px;
+	}
+	.subsection .center h2::before {
+		font-size: 17px;
+	}
+	.center {
+		width: 50%;
+		margin-bottom: 45px;
+	}
+	.ratingwrapper {
+		margin-bottom: 33px;
+	}
+	.rating {
+		padding-bottom: 275px;
+		width: 100%;
+	}
+	.rating .trustpilot {
+		float: left;
+		width: 50.3%;
+		margin: 0;
+	}
+	.trustpilot .trustlogo {
+		padding: 10px 17px 2px;
+		width: 75%;
+		margin: 0;
+	}
+	.trustpilot .trustrating {
+		padding: 30px 0 50px;
+	}
+	h3 {
+		font-size: 26px;
+	}
+	.trustpilot .trust {
+		width: 48.2%;
+	}
+	.trustpilot .trustleft {
+		padding-left: 8px;
+	}
+	.trustpilot .trustright {
+		padding-right: 26px;
+	}
+	.trustpilot .trust span {
+		font-size: 43px;
+	}
+	.ratingwrapper .review {
+		position: absolute;
+		width: 53.82%;
+		left: 50%;
+		top: 50%;
+		-webkit-transform: translate(-49px, -174px);
+		-moz-transform: translate(-49px, -174px);
+		-ms-transform: translate(-49px, -174px);
+		-o-transform: translate(-49px, -174px);
+		transform: translate(-48px, -174px);
+	}
+	.trustpilot .trusticon {
+		width: 31.07%;
+		top: 50%;
+		left: 50%;
+		z-index: 10;
+		-webkit-transform: translate(-117.5%,-23px);
+		-moz-transform: translate(-117.5%,-23px);
+		-ms-transform: translate(-117.5%,-23px);
+		-o-transform: translate(-117.5%,-23px);
+		transform: translate(-117.5%,-23px);
+	}
+	.processboxwrapper {
+		padding-bottom: 250px;
+	}
+	.processboxwrapper .processbox {
+		padding: 40px 18px 45px 21px;
+	}
+	h4 {
+		font-size: 18px;
+	}
+	.processbox h4 {
+		padding-bottom: 12px;
+		margin-bottom: 14px;
+		font-weight: 600;
+	}
+	.processbox .solutionicon {
+		width: 56%;
+		left: 0;
+		transform: translate(-105%,-36px);
+	}
+	.servicewrapper {
+		padding-bottom: 60px;
+	}
+	.servicewrapper .center {
+		margin-bottom: 144px;
+	}
+	.servicelist .service h4 {
+		font-size: 14px;
+	}
+	.servicelist .service a {
+		font-size: 12px;
+		padding-bottom: 6px;
+	}
+	.servicelist .service a::after {
+		height: 2px;
+	}
+	.moreboxwrapper .moreboxleft {
+		margin-bottom: 0px;
+		width: 32.02%;
+		float: left;
+	}
+	.moreboxleft .webdev {
+		text-align: right;
+		padding: 20px 29px 24px;
+		margin-bottom: 2px;
+		min-height: 154px;
+	}
+	.moreboxleft .webdev p {
+		font-size: 14px;
+	}
+	.moreboxleft .tabs {
+		text-align: right;
+	}
+	.moreboxleft .tabs li {
+		display: block;
+		padding: 12px 0 13px;
+	}
+	.moreboxleft .tabs li a {
+		letter-spacing: 1.8px;
+		margin-bottom: 8px;
+	}
+	.moreboxwrapper .tabcontent {
+		width: 63.52%;
+		float: right;
+		height: 465px;
+	}
+	.helpwrapper h3 {
+		font-size: 20px;
+	}
+	.helpwrapper .helpboxwrapper {
+		margin-bottom: 40px;
+	}
+	.helpwrapper .bottomline {
+		font-size: 12px;
+		padding-bottom: 6px;
+		margin-right: 15px;
+	}
+	.helpboxwrapper .helpbox {
+		min-height: 380px;
+	}
+	.helpbox p {
+		line-height: 2;
+	}
+	h5 {
+		font-size: 18px;
+	}
+	.contactsection .estimatewrapper {
+		padding: 40px 0;
+	}
+	.estimatewrapper h2 {
+		margin-bottom: 30px;
+	}
+	.estimateboxwrapper .formwrapper {
+		float: left;
+		width: 61.55%;
+		margin: 0 5.84% 0 84px;
+	}
+	.formwrapper h5 {
+		margin-bottom: 17px;
+	}
+	.formdetail {
+		margin-bottom: 30px;
+	}
+	.formdetail .inputwrapper {
+		margin-bottom: 17px;
+	}
+	.formwrapper .inputwrapper label {
+		font-size: 15px;
+	}
+	.inputwrapper .input {
+		height: 50px;
+		font-size: 16px;
+	}
+	.inputwrapper .txtinput {
+		height: 100px;
+	}
+	.inputwrapper .error {
+		font-size: 12px;
+	}
+	.inputwrapper i {
+		width: 22px;
+		height: 22px;
+		position: absolute;
+		right: -33px;
+		top: 47px;
+	}
+	.formwrapper .redbutton {
+		font-size: 17px;
+	}
+	.infowrapper {
+		width: 18.37%;
+		float: left;
+		padding: 30px 0;
+	}
+	.infowrapper .partners li {
+		display: block;
+		width: 100%;
+		margin: 0 0 28px 0;
+		text-align: center;
+	}
+
+	.infowrapper .partners {
+		margin-bottom: 20px;
+	}
+	.replyboxwrapper .replybox {
+		float: none;
+		width: 100%;
+		margin: 0 0 18px 0;
+		padding: 85px 10px 10px;
+	}
+	.replyboxwrapper .replybox:last-child {
+		margin: 0
+	}
+	.replyboxwrapper .replybox span {
+		font-size: 11px;
+	}
+	.replybox strong {
+		display: inline;
+	}
+	.replybox .replyicon {
+		width: 50%;
+		top: 10px;
+	}
+	.footer .container {
+		padding: 28px 82px 27px 84px;
+	}
+	.footer .address {
+		font-size: 11px;
+		width: 29.2%;
+	}
+	.address span {
+		margin-bottom: 7px;
+	}
+	.address p {
+		line-height: 1.2;
+	}
+	.footer .privacy {
+		font-size: 14px;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	body {
+		font-size: 18px;
+	}
+	.container {
+		padding: 0;
+	}
+	.center {
+		width: 45% !important;
+	}
+	.header {
+		padding: 24px 0 20px;
+	}
+	.banner {
+		padding: 150px 0 0;
+		margin-bottom: 67px;
+	}
+	.bannercontent {
+		left: 1px;
+		top: -7px;
+	}
+	.bannercontent h1 {
+		font-size: 48px;
+		margin-bottom: 29px;
+	}
+	.bannercontent span {
+		font-size: 28px;
+		margin-bottom: 34px;
+		padding-left: 2px;
+	}
+	.bannercontent p {
+		font-size: 24px;
+		margin-bottom: 21px;
+		padding: 0 80px 0 2px;
+	}
+	.specialist {
+		margin-bottom: 37px;
+	}
+	.redbutton {
+		font-size: 24px;
+	}
+	.frameworklogos {
+		text-align: center;
+		margin-bottom: 56px;
+	}
+	.frameworklogos span {
+		margin-bottom: 27px;
+	}
+	.frameworklogos .logos li {
+		padding: 5px 15px;
+	}
+	.subsection .center h2::before {
+		font-size: 18px;
+	}
+	.sectionwrapper {
+		padding: 62px 0;
+	}
+	.subsection {
+		padding: 65px 0 10px;
+	}
+	h2 {
+		font-size: 36px;
+	}
+	.subsection .center h2 {
+		margin-bottom: 22px;
+	}
+	.center {
+		margin-bottom: 54px;
+	}
+	.ratingwrapper {
+		margin-bottom: 82px;
+	}
+	.trustpilot .trustlogo {
+		padding: 13px 18px 4px;
+		width: 100%;
+	}
+	.trustpilot .trustrating {
+		padding: 36px 0 56px;
+	}
+	h3 {
+		font-size: 28px;
+	}
+	.trustrating .trust h3 {
+		margin-bottom: 22px;
+	}
+	.trustpilot .trust span {
+		font-size: 48px;
+	}
+	.trustpilot .trusticon {
+		-webkit-transform: translate(-117.5%,-2px);
+		-moz-transform: translate(-117.5%,-2px);
+		-ms-transform: translate(-117.5%,-2px);
+		-o-transform: translate(-117.5%,-2px);
+		transform: translate(-117.5%,-2px);
+	}
+	.solutionwrapper .center {
+		margin-bottom: 37px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	.processboxwrapper .processbox {
+		padding: 53px 20px 64px 25px;
+	}
+	.processbox h4 {
+		padding-bottom: 14px;
+		margin-bottom: 18px;
+	}
+	.processbox .solutionicon {
+		transform: translate(-105%,-36px);
+	}
+	.processlist {
+		min-height: 308px;
+		margin-bottom: 36px;
+	}
+	.servicewrapper {
+		padding-top: 42px;
+	}
+	.servicewrapper .servicelist {
+		padding: 15px 10px 32px;
+	}
+	.servicelist .service h4 {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.servicelist .service a {
+		font-size: 12px;
+	}
+	.servicelist .service {
+		padding: 23px 25px 10px 30px;
+	}
+	.servicelist .firstservice {
+		padding-right: 38px;
+	}
+	.morewrapper {
+		padding: 167px 0 20px;
+	}
+	.morewrapper .center {
+		width: 50% !important;
+		margin-bottom: 68px;
+	}
+	.moreboxleft .webdev p {
+		font-size: 15px;
+		line-height: 1.5;
+		padding-right: 3px;
+	}
+	.moreboxleft .tabs {
+		text-align: right;
+	}
+	.moreboxleft .tabs li {
+		padding: 19px 0 15.5px;
+	}
+	.moreboxwrapper .tabcontent {
+		width: 63.52%;
+		float: right;
+		height: 513px;
+	}
+	.contactsection .helpiconleft {
+		width: 15.1%;
+		top: 120px;
+		right: 100%;
+		margin-left: 56px;
+	}
+	.contactsection .helpiconright {
+		width: 17%;
+		top: 110px;
+		left: 100%;
+		margin-left: -249px;
+	}
+	.helpwrapper h3 {
+		font-size: 21.51px;
+	}
+	.helpwrapper .center {
+		margin-bottom: 42px;
+	}
+	.helpboxwrapper .helpbox {
+		padding: 109px 15px 36px;
+	}
+	.helpboxwrapper .helpbox h4 {
+		margin-bottom: 22px;
+	}
+	.helpboxwrapper .helpbox p {
+		font-size: 15px;
+		padding: 0 12px 0 5px;
+	}
+	.helpboxwrapper .helpbox i {
+		transform: translate(-50%,33px);
+	}
+	.contactsection .estimatewrapper {
+		padding: 59px 0;
+	}
+	.estimatewrapper h2 {
+		padding: 0 40px;
+		letter-spacing: 0.25px;
+		margin-bottom: 39px;
+	}
+	h5 {
+		font-size: 20px;
+	}
+	.contactsection .estimatewrapper {
+		padding: 59px 0 67px;
+	}
+	.estimatewrapper h2 {
+		margin-bottom: 39px;
+	}
+	.estimateboxwrapper .formwrapper {
+		float: left;
+		width: 61.55%;
+		padding: 66px 102px 55px 90px;
+	}
+	.formwrapper h5 {
+		margin-bottom: 18px;
+		padding-left: 2px;
+	}
+	.formdetail {
+		margin-bottom: 38px;
+	}
+	.scndform {
+		margin-bottom: 23px;
+	}
+	.formdetail .inputwrapper {
+		margin-bottom: 13px;
+	}
+	.formwrapper .inputwrapper label {
+		font-size: 17.15px;
+		letter-spacing: -0.5px;
+	}
+	.inputwrapper .input {
+		font-size: 16px;
+	}
+	.inputwrapper .error {
+		font-size: 13px;
+	}
+	.formwrapper .buttonwrapper {
+		padding-left: 12px;
+	}
+	.formwrapper .formicon {
+		width: 44%;
+		left: 0;
+		bottom: 0;
+		margin: 0 0 39px -262px;
+	}
+	.formwrapper .redbutton {
+		font-size: 18px;
+		letter-spacing: 0.5px;
+		padding: 19px 46px 15px 41px;
+	}
+	.infowrapper {
+		width: 18.37%;
+		float: left;
+		padding: 71px 0;
+	}
+	.infowrapper .partners {
+		margin-bottom: 15px;
+	}
+	.infowrapper .partners li {
+		display: block;
+		width: 100%;
+		margin: 0 0 37px 0;
+	}
+	.infowrapper .partners li:last-child {
+		padding: 15px 0 0 8px;
+		margin-bottom: 0;
+	}
+	.infowrapper .partners {
+		margin-bottom: 25px;
+	}
+	.replyboxwrapper .replybox {
+		float: none;
+		width: 100%;
+		margin: 0 0 18px 0;
+		padding: 80px 30px 18px;
+	}
+	.replyboxwrapper .replybox p {
+		line-height: 1.5;
+		margin-bottom: 2px;
+	}
+	.replyboxwrapper .replybox:last-child {
+		margin: 0;
+		padding: 81px 30px 17px;
+	}
+	.replyboxwrapper .replybox:last-child p {
+		font-size: 16px;
+		line-height: 1.7;
+	}
+	.replyboxwrapper .replybox span {
+		font-size: 12px;
+	}
+	.replybox:first-child .replyicon {
+		margin-left: -4px;
+	}
+	.replybox:last-child .replyicon {
+		top: 8px;
+	}
+
+}

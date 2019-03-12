@@ -1,0 +1,587 @@
+/*.... header start....*/
+.header {
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #e8e8e8;
+	-webkit-box-shadow: 0 5px 35px rgba(0,0,0,0.055);
+	-moz-box-shadow: 0 5px 35px rgba(0,0,0,0.055);
+	box-shadow: 0 5px 35px rgba(0,0,0,0.055);
+	padding: 12px 0 12px;
+	z-index: 100;
+}
+.menu .mainlogo {
+	width: 60%;
+	float: left;
+}
+.menu .supportbtn {
+	float: right;
+	font-size: 10px;
+	font-weight: 600;
+	border: 1px solid #b8b8c4;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	padding: 5px 20px 7px;
+}
+.menu .supportbtn:hover {
+	border-color: #2980b9;
+}
+/*.... header end....*/
+/*.... banner start....*/
+.banner {
+	padding: 70px 0 0;
+	margin-bottom: 20px;
+}
+.rocketimgwrapper {
+	margin-bottom: 10px;
+}
+.bannercontent {
+	text-align: center;
+}
+.bannercontent h1 {
+	word-spacing: 2.5px;
+	margin-bottom: 15px;
+}
+.bannercontent span {
+	font: 700 18px 'Circular';
+	color: #2980b9;
+	text-transform: uppercase;
+	letter-spacing: 0.15px;
+	margin-bottom: 14px;
+}
+.bannercontent p {
+	font-size: 15px;
+	line-height: 1.416;
+	margin-bottom: 14px;
+}
+.specialist {
+	margin-bottom: 14px;
+	color: #6a7884;
+	text-align: left;
+}
+.ticklist li {
+	position: relative;
+	padding: 8px 5px 8px 42px;
+	line-height: 1.25;
+}
+.ticklist li .icon-tick {
+	position: absolute;
+	top: 9px;
+	left: 8px;
+}
+/*.... banner end....*/
+/*.... logos list start....*/
+.frameworklogos {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.frameworklogos span {
+	color: #9f9f9f;
+	margin-bottom: 10px;
+}
+.frameworklogos .logos li {
+	display: inline-block;
+	padding: 5px 10px;
+	vertical-align: middle;
+}
+.logos li img {
+	width: 70%;
+}
+/*.... logos list end....*/
+/*.... section wrapper start....*/
+.sectionwrapper {
+	background: url('../images/background.jpg') center 0/cover no-repeat;
+	padding: 20px 0;
+}
+/*.... rating wrapper start....*/
+.sectionwrapper h2::before {
+	content: '1. Rating';
+}
+.rating {
+	position: relative;
+}
+.rating .trustpilot {
+	background: #fff;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	margin-bottom: 15px;
+}
+.trustpilot .trustlogo {
+	display: block;
+	padding: 2px 10px;
+	width: 40%;
+	margin: 0 auto;
+}
+.trustpilot .trustrating {
+	padding: 10px 0;
+	border-top: 2px solid #eaeaf3;
+}
+.trustleft {
+	border-right: 2px solid #f1f1f7;
+}
+.trustrating .trust {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.trustrating .trust h3 {
+	color: #2980b9;
+	margin-bottom: 8px;
+	letter-spacing: 0.3px;
+}
+.trustpilot .trust span {
+	font: 700 24px 'Merriweather';
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background: rgb(254,195,1);
+	background: -moz-linear-gradient(left, rgba(254,195,1,1) 0%, rgba(93,235,67,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(254,195,1,1) 0%,rgba(93,235,67,1) 100%);
+	background: linear-gradient(to right, rgba(254,195,1,1) 0%,rgba(93,235,67,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec301', endColorstr='#5deb43',GradientType=1 );
+	color: #fff;
+	letter-spacing: 0.7px;
+	padding: 0 25px 7px 26px;
+}
+.trustpilot .trusticon {
+	width: 25%;
+	position: absolute;
+	top: -5px;
+	right: -12px;
+}
+.ratingwrapper .review {
+	border: 1px solid #f1f1f7;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 3px 11.28px 0.72px rgba(2,255,163,0.03), 0 15px 25.23px 3.77px rgba(2,255,163,0.03);
+	-moz-box-shadow: 0 3px 11.28px 0.72px rgba(2,255,163,0.03), 0 15px 25.23px 3.77px rgba(2,255,163,0.03);
+	box-shadow: 0 3px 11.28px 0.72px rgba(2,255,163,0.03), 0 15px 25.23px 3.77px rgba(2,255,163,0.03);
+}
+.ratingwrapper .review img {
+	width: 100%;
+	display: block;
+}
+/*.... rating wrapper end....*/
+/*.... process wrapper start....*/
+.solutionwrapper h2::before {
+	content: '2. Process';
+}
+.processboxwrapper {
+	padding-bottom: 90px;
+}
+.processboxwrapper .processbox {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	position: relative;
+	padding: 17px 10px 17px 12px;
+	margin-bottom: 17px;
+}
+.processbox .topcontent {
+	padding: 0 0 0 12px;
+}
+.processbox h4 {
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+.processlist {
+	margin-bottom: 10px;
+}
+.processlist li .icon-tick {
+	top: 12px;
+	left: 1px;
+}
+.processbox p {
+	background: url('../images/parabackground.png') left top/cover repeat-y;
+	line-height: 2.11;
+	padding: 0 0 0 16px;
+}
+.processbox .solutionicon {
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	top: 100%;
+	-webkit-transform: translate(-39%,-10%);
+	-moz-transform: translate(-39%,-10%);
+	-ms-transform: translate(-39%,-10%);
+	-o-transform: translate(-39%,-10%);
+	transform: translate(-39%,-10%);
+}
+/*.... process wrapper start....*/
+.servicewrapper h2::before {
+	content: '3. Service Perks';
+}
+.servicewrapper .servicelist {
+	padding: 5px 12px;
+}
+.servicelist .service {
+	padding: 15px 15px 18px 50px;
+	border-bottom: 1px solid #cfe3e0;
+	position: relative;
+}
+.servicelist .service:last-child {
+	border: 0;
+}
+.service .servicelogo {
+	width: 55px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translate(-18px, -50%);
+	-moz-transform: translate(-18px, -50%);
+	-ms-transform: translate(-18px, -50%);
+	-o-transform: translate(-18px, -50%);
+	transform: translate(-18px, -50%);
+}
+.servicelist .service h4 {
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+.servicelist .service a {
+	font-size: 10px;
+	padding-bottom: 4px;
+}
+.servicelist .service a::after {
+	height: 1px;
+	background: #00b394;
+}
+.servicelist .service a:hover {
+	color: #00b394;
+}
+.icon-arrow {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	margin: -7px 0 0 7px;
+}
+.servicelist .service .icon-arrow {
+	background-position: -24px 0;
+}
+/*.... process wrapper end....*/
+/*.... more wrapper start....*/
+.morewrapper h2::before {
+	content: '4. Wait, there’s more!';
+}
+.moreboxwrapper .moreboxleft {
+	margin-bottom: 16px;
+}
+.moreboxleft .webdev {
+	text-align: center;
+	padding: 10px 17px;
+			
+}
+.moreboxleft .webdev span {
+	margin-bottom: 5px;
+}
+.moreboxleft .webdev p {
+	font-size: 10px;
+}
+.moreboxleft .tabs {
+	text-align: center;
+}
+.moreboxleft .tabs li {
+	display: inline-block;
+	padding: 5px 12px;	
+}
+.moreboxleft .tabs li:first-child {
+	padding-top: 0;
+}
+.tabs li a {
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+.tabs li .bottomline::after {
+	color: #00ffff;
+	height: 1px;
+}
+.tabs li a:not(.active):hover {
+	color: #2980b9;	
+}
+.tabs .tabslink .webdev {
+	display: none;
+}
+.tabs .active .webdev {
+	display: block;			
+}
+.tabs .active a {
+	display: none;
+}
+.tabcontent {
+	padding: 2px 0;
+	overflow: hidden;
+}
+.tabcontent .tabdisplay {
+	display: none;
+}
+.tabcontent .active {
+	display: block;
+}
+
+/*.... more wrapper end....*/
+/*....  section end....*/
+
+/*....  contact section start....*/
+.contactsection {
+	background: url('../images/background2.jpg') center 0 no-repeat;
+	position: relative;
+	padding: 50px 0 18px;
+	overflow: hidden;
+}
+.contactsection .helpicon {
+	width: 30%;
+	position: absolute;
+	z-index: 10;
+	top: 40px;
+}
+.helpiconleft {
+	left: 0;
+}
+.helpiconright {
+	right: 0;
+}
+/*....  help start....*/
+.contactsection .helpwrapper {
+	padding: 62px 0 30px;
+	text-align: center;
+}
+.helpwrapper .helpboxwrapper {
+	margin-bottom: 15px;
+}
+.helpwrapper h3 {
+	font: 14px 'Amsterdam';
+	color: #f03e32;
+	line-height: 3.4;
+}
+.helpboxwrapper .helpbox {
+	padding: 75px 15px 15px;
+	position: relative;
+	margin-bottom: 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.helpboxwrapper .helpbox:last-child {
+	margin-bottom: 0;
+}
+.helpboxwrapper .helpbox i {
+	width: 48px;
+	height: 53px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%,12px);
+	-moz-transform: translate(-50%,12px);
+	-ms-transform: translate(-50%,12px);
+	-o-transform: translate(-50%,12px);
+	transform: translate(-50%,12px);
+}
+.helpbox .icon-meet {
+	background-position: -31px 0;
+}
+.helpbox .icon-progress {
+	background-position: -79px 0;
+}
+.helpbox .icon-expert {
+	background-position: -127px 0;
+}
+.helpboxwrapper .helpbox h4 {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.helpboxwrapper .helpbox p {
+	font-size: 10px;
+	color: #6a7884;
+}
+.helpwrapper .bottomline {
+	font-size: 10px;
+	padding-bottom: 5px;
+}
+.helpwrapper .bottomline::after {
+	background: #5e9cff;
+}
+.helpwrapper .bottomline .icon-arrow {
+	background-position: -21px -18px;
+}
+/*....  help end....*/
+/*....  contact start....*/
+.contactsection .estimatewrapper {
+	padding: 10px 0;
+}
+.estimatewrapper h2 {
+	text-align: center;
+	margin-bottom: 18px;
+	padding: 0 20px;
+	line-height: 1.3661;
+}
+.estimateboxwrapper .formwrapper {
+	padding: 25px 40px 25px 35px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.formwrapper .formicon {
+	position: absolute;
+	width: 25%;
+	left: 0;
+	bottom: 0;
+	margin: 0 0 -10px -15px;
+}
+.formwrapper h5 {
+	margin-bottom: 11px;
+}
+.formdetail {
+	margin-bottom: 17px;
+}
+.formdetail .inputwrapper {
+	margin-bottom: 10px;
+	position: relative;
+}
+.formdetail .inputwrapper:last-child {
+	margin-bottom: 0;
+}
+.formwrapper .inputwrapper label {
+	font-size: 11px;
+	font-weight: 600;
+	display: block;
+}
+.inputwrapper .input {
+	width: 100%;
+	height: 35px;
+	border: 1px solid #e4e4ef;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px 10px;
+	-webkit-box-shadow: 0 3px 3.96px 0.4px rgba(0,0,0,0.09);
+	-moz-box-shadow: 0 3px 3.96px 0.4px rgba(0,0,0,0.09);
+	box-shadow: 0 3px 3.96px 0.4px rgba(0,0,0,0.09);
+}
+.inputwrapper .txtinput {
+	height: 70px;
+	resize: none;
+}
+.inputwrapper .input {
+	font: 11px 'MinionPro-It';
+}
+.inputwrapper .error {
+	font-size: 9px;
+	display: block;
+}
+.inputwrapper i {
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	right: -28px;
+	top: 28px;
+}
+.inputwrapper .icon-correct {
+	background-position: -175px 0;
+}
+.inputwrapper .icon-error {
+	background-position: -197px 0;
+}
+.formwrapper .buttonwrapper {
+	text-align: center;
+}
+.infowrapper .partners {
+	margin-bottom: 15px;
+	text-align: center;
+}
+.infowrapper .partners li {
+	display: inline-block;
+	width: 30%;
+	margin-right: 3%;
+}
+.infowrapper .partners li:last-child {
+	margin-right: 0;
+}
+.replyboxwrapper .replybox {
+	float: left;
+	width: 48.5%;
+	margin-right: 3%;
+	padding: 55px 10px 10px;
+	text-align: center;
+	position: relative;
+}
+.replybox .replyicon {
+	position: absolute;
+	width: 35%;
+	top: 5px;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
+.replyboxwrapper .replybox p {
+	margin-bottom: 5px;
+}
+.replyboxwrapper .replybox span {
+	font-size: 8px;
+	font-weight: 600;
+	color: #6a7884;
+}
+.replyboxwrapper .replybox:last-child {
+	margin-right: 0;
+}
+/*....  contact end....*/
+/*....  contact section end....*/
+
+/*....  footer start....*/
+.footer {
+	background: #f9f9f9;
+	color: #8e9ba6;
+	text-align: center;
+}
+.footer .container {
+	padding: 10px 20px 20px;
+}
+.fotcolor {
+	color: #223547;
+}
+.footer .address {
+	font-size: 8px;
+	border-bottom: 1px solid #e4e4ef;
+	padding: 8px 0;
+}
+.footer .privacy {
+	padding: 10px 0;
+	font-size: 10px;
+}
+.footer .icon-privacy {
+	width: 50px;
+	height: 42px;
+	background-position: -219px 0;
+	margin-right: 9px;
+	vertical-align: middle;
+}
+.footer .privacy p {
+	display: inline-block;
+	width: 60%;
+	vertical-align: middle;
+	text-align: left;
+	padding-top: 2px;
+}
+.footer .sociallinks a {
+	margin-right: 20px;
+}
+.footer .sociallinks a:last-child {
+	margin-right: 0;
+}
+.footer .sociallinks i {
+	width: 22px;
+	height: 22px;
+}
+.sociallinks .icon-fb {
+	background-position: -269px 0;
+}
+.sociallinks .icon-twitter {
+	background-position: -291px 0;
+}
+/*....  footer end....*/

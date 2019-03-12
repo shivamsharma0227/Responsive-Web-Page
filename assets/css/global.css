@@ -1,0 +1,223 @@
+/* Eric Meyer's Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Font Face */
+@font-face {
+	font-family: 'Circular';
+	src: url('../fonts/CircularStd-Bold.woff') format('woff');
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'Amsterdam';
+	src: url('../fonts/Amsterdam.woff') format('woff');
+}
+@font-face {
+	font-family: 'MinionPro-It';
+	src: url('../fonts/MinionPro-It.woff') format('woff');
+	font-style: italic;
+}
+
+/* Global Typography */
+*, :before, :after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 100%;
+}
+body {
+	font: 400 12px 'Open Sans';
+	color: #223547;
+}
+/* Global Headings */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Merriweather';
+	font-weight: 700;
+}
+h1 {
+	font-size: 24px;
+	line-height: 1.36;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font: 700 18px 'Circular'
+}
+h4 {
+	font: 15px 'Open Sans'
+}
+h5 {
+	font: 600 14px 'Open Sans';
+	color: #f03e32;
+}
+/* General Text Formatting */
+p {
+	line-height: 1.666;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+span {
+	display: inline-block;
+}
+strong {
+	font-weight: 700;
+}
+em {
+	font-style: italic;
+}
+/* Global Link style */
+a {
+	color: #223547;
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+	color: #2980b9;
+}
+.input:focus {
+	outline: none;
+}
+.button {
+	outline: none;
+	border: 0;
+}
+/* Global Button Styles */
+.redbutton {
+	font-weight: 600;
+	font-size: 14px;
+	color: #fff;
+	background: #f03e32;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px 25px 13px;
+	cursor: pointer;
+}
+.redbutton:hover, .redbutton:focus{
+	background: #2980b9;
+	color: #fff;
+}
+/* Global Sprite Icons */
+[class^="icon-"], [class*="icon-"] {
+	background: url(../images/sprite.png) 0 0 no-repeat;
+	display: inline-block;
+	vertical-align: text-top;
+	width: 21px;
+	height: 18px;
+	font-size: 0;
+}
+/* Clearfix class*/
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* Global style */
+#wrapper {
+
+}
+.container {
+	max-width: 1165px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.subsection {
+	padding: 40px 0 10px;
+	margin-bottom: 14px;
+}
+.center {
+	margin: 0 auto 14px auto;
+	text-align: center;
+}
+.subsection .center h2 {
+	letter-spacing: 0.25px;
+	line-height: 1.361;
+	margin-bottom: 10px;
+	position: relative;
+}
+.subsection .center h2::before {
+	position: absolute;
+	font: 600 12px 'Open Sans';
+	color: #f03e32;
+	left: 50%;
+	top: 0;
+	-webkit-transform: translate(-50%,-290%);
+	-moz-transform: translate(-50%,-290%);
+	-ms-transform: translate(-50%,-290%);
+	-o-transform: translate(-50%,-290%);
+	transform: translate(-50%,-290%);
+}
+.center p {
+	color: #6a7884;
+}
+.shadowbox {
+	-webkit-box-shadow: 0 3px 11.28px 0.72px rgba(0,0,0,0.03), 0 15px 25.23px 3.77px rgba(0,0,0,0.03);
+	-moz-box-shadow: 0 3px 11.28px 0.72px rgba(0,0,0,0.03), 0 15px 25.23px 3.77px rgba(0,0,0,0.03);
+	box-shadow: 0 3px 11.28px 0.72px rgba(0,0,0,0.03), 0 15px 25.23px 3.77px rgba(0,0,0,0.03);
+	border: 1px solid #e4e4ef;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #fff;
+}
+.bottomline {
+	display: inline-block;
+	position: relative;
+}
+.bottomline::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+	background: #00ffd6;
+}
